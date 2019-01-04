@@ -4,16 +4,8 @@ const port = process.env.PORT || 3000;
 let app = express();
 
 app.get('/', (req, res) => {
-     // console.log('request answered');
-     res.send('<h1>Hello Express</h1>');
-     // res.send({
-     //      name: 'justin',
-     //      likes: ['biking', 'cities']
-     // });
-     // res.render('home.hbs', {
-     // 	 pageTitle: 'Home',
-     // 	 welcomeMessage: 'Welcome to my website'
-     // });
+  let page = '<html><head><title>Go3D</title></head><body><h1>Welcome to the Go3D project</h1></body></html>';
+     res.send(page)
 });
 
 app.listen(port, () => {
