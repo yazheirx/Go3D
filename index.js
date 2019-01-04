@@ -1,11 +1,21 @@
-const http = require('http');
-const hostname = '127.0.0.1';
+const express = require('express');
+
 const port = process.env.PORT || 3000;
-const server = http.createServer((req, res) => {
-     res.statusCode = 200;
-     res.setHeader('Content-Type', 'text/plain');
-     res.end('Hello World\n');
+let app = express();
+
+app.get('/', (req, res) => {
+     // console.log('request answered');
+     res.send('<h1>Hello Express</h1>');
+     // res.send({
+     //      name: 'justin',
+     //      likes: ['biking', 'cities']
+     // });
+     // res.render('home.hbs', {
+     // 	 pageTitle: 'Home',
+     // 	 welcomeMessage: 'Welcome to my website'
+     // });
 });
-server.listen(port, hostname, () => {
-     console.log(`Server running at http://${hostname}:${port}/`);
+
+app.listen(port, () => {
+     console.log(`Server is up on port ${port}`);
 });
