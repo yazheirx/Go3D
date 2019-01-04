@@ -18,6 +18,8 @@
      },
      "homepage": "https://github.com/yazheirx/go3#readme",
      "dependencies": {
+          "babylonjs": "^3.3.0",
+          "babylonjs-gui": "^3.3.0",
           "express": "^4.16.4"
      }
 }
