@@ -4,7 +4,7 @@ A BabylonJS 3 Dimensional 9x9 Go style game
 
 ## View current version
 
-A running version is up on Heroku at: https://dashboard.heroku.com/apps/young-springs-11861. This is a free Heroku account so it will take some time for the app to initialize the first time.
+A running version is up on Heroku at: https://young-springs-11861.herokuapp.com/. This is a free Heroku account so it will take some time for the app to initialize the first time.
 
 ## Installation
 
