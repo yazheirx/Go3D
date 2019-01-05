@@ -14,7 +14,7 @@ As a NodeJS application cloning this library and running 'node index.js' should 
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/yazheirx/go3/blob/master/LICENSE)
 
 ## Project Status
 
@@ -22,4 +22,4 @@ As of 2019-01-04 this is an active project which should receive monthly attentio
 
 
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-[license]: https://github.com/visionmedia/supertest/blob/master/LICENSE
+[license]: https://github.com/yazheirx/go3/blob/master/LICENSE
