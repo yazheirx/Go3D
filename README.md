@@ -1,5 +1,11 @@
 # Go3
 
+[![Coveralls][coverage-badge]][coverage]
+[![Build Status][travis-badge]][travis]
+[![Dependencies][dependencies-badge]][dependencies]
+[![PRs Welcome][prs-badge]][prs]
+[![MIT License][license-badge]][license]
+
 A BabylonJS 3 Dimensional 9x9 Go style game
 
 ## View current version
