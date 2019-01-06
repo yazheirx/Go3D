@@ -1,4 +1,4 @@
-# Go3
+# Go3D
 
 [![MIT License][license-badge]][license]
 
