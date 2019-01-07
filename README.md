@@ -18,8 +18,7 @@ As a NodeJS application cloning this library and running 'node index.js' should 
 
 ## Project Status
 
-As of 2019-01-04 this is an active project which should receive monthly attention
-
+As of 2019-01-07 this is an active project which should receive monthly attention
 
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license]: https://github.com/yazheirx/go3/blob/master/LICENSE
