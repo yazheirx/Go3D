@@ -10,7 +10,7 @@ A running version is up on Heroku at: https://young-springs-11861.herokuapp.com/
 
 ## Installation
 
-As a NodeJS application cloning this library and running 'node index.js' should be enough to get started.
+As a NodeJS application cloning this library and running 'node index.js' should be enough to get started. 
 
 ## License
 
