@@ -4,6 +4,7 @@
      "description": "A BabylonJS Go style game",
      "main": "index.html",
      "scripts": {
+          "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
           "test": "jest --coverage",
           "watch": "jest --coverage --watch *.js",
           "start": "node index.js"
@@ -24,6 +25,7 @@
           "express": "^4.16.4"
      },
      "devDependencies": {
+          "coveralls": "^3.0.2",
           "jest": "^23.6.0"
      }
 }

@@ -1,6 +1,4 @@
-'use strict';
-// const express = require('express');
-import express from 'express';
+const express = require('express');
 
 let port = process.env.PORT || 3000;
 let app = express();

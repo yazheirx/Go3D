@@ -1,5 +1,6 @@
 # Go3D
 
+[![Coverage Status][coverage-badge]][coverage]
 [![Build Status][travis-badge]][travis]
 [![MIT License][license-badge]][license]
 
@@ -11,7 +12,7 @@ A running version is up on Heroku at: https://young-springs-11861.herokuapp.com/
 
 ## Installation
 
-As a NodeJS application cloning this library and running 'node index.js' should be enough to get started. 
+As a NodeJS application cloning this library and running 'node index.js' should be enough to get started.
 
 ## License
 
@@ -21,6 +22,8 @@ As a NodeJS application cloning this library and running 'node index.js' should 
 
 As of 2019-01-07 this is an active project which should receive monthly attention
 
+[coverage-badge]: https://coveralls.io/github/yazheirx/Go3D?branch=relevant-confusion
+[coverage]: https://coveralls.io/repos/github/yazheirx/Go3D/badge.svg?branch=relevant-confusion
 [travis-badge]: https://travis-ci.com/yazheirx/Go3D.svg?branch=relevant-confusion
 [travis]: https://travis-ci.com/yazheirx/Go3D.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
