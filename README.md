@@ -1,6 +1,6 @@
 # Go3D
 
-[![Coverage Status][coverage-badge]][coverage]
+[![Coverage Status](https://coveralls.io/repos/github/yazheirx/Go3D/badge.svg)](https://coveralls.io/github/yazheirx/Go3D)
 [![Build Status][travis-badge]][travis]
 [![MIT License][license-badge]][license]
 
