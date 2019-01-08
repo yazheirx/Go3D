@@ -4,7 +4,8 @@
      "description": "A BabylonJS Go style game",
      "main": "index.html",
      "scripts": {
-          "test": "echo \"Error: no test specified\" && exit 1",
+          "test": "jest --coverage",
+          "watch": "jest --coverage --watch *.js",
           "start": "node index.js"
      },
      "repository": {
@@ -21,5 +22,8 @@
           "babylonjs": "^3.3.0",
           "babylonjs-gui": "^3.3.0",
           "express": "^4.16.4"
+     },
+     "devDependencies": {
+          "jest": "^23.6.0"
      }
 }
