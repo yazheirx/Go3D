@@ -1,5 +1,6 @@
 # Go3D
 
+[![Build Status][travis-badge]][travis]
 [![MIT License][license-badge]][license]
 
 A BabylonJS 3 Dimensional 9x9 Go style game
@@ -20,5 +21,7 @@ As a NodeJS application cloning this library and running 'node index.js' should 
 
 As of 2019-01-07 this is an active project which should receive monthly attention
 
+[travis-badge]: https://travis-ci.com/yazheirx/Go3D.svg?branch=relevant-confusion
+[travis]: https://travis-ci.com/yazheirx/Go3D.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license]: https://github.com/yazheirx/go3/blob/master/LICENSE
