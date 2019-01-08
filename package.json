@@ -4,7 +4,9 @@
      "description": "A BabylonJS Go style game",
      "main": "index.html",
      "scripts": {
-          "test": "echo \"Error: no test specified\" && exit 1",
+          "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+          "test": "jest --coverage",
+          "watch": "jest --coverage --watch *.js",
           "start": "node index.js"
      },
      "repository": {
@@ -21,5 +23,9 @@
           "babylonjs": "^3.3.0",
           "babylonjs-gui": "^3.3.0",
           "express": "^4.16.4"
+     },
+     "devDependencies": {
+          "coveralls": "^3.0.2",
+          "jest": "^23.6.0"
      }
 }
