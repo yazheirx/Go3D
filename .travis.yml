@@ -1,1 +1,15 @@
 language: node_js
+node_js:
+     - '8'
+branches:
+  only:
+    - relevant-confusion
+cache:
+  directories:
+    - node_modules
+before_install:
+  - npm update
+instal:
+  - npm install
+script: 
+  npm test
