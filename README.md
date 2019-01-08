@@ -22,8 +22,8 @@ As a NodeJS application cloning this library and running 'node index.js' should 
 
 As of 2019-01-07 this is an active project which should receive monthly attention
 
-[coverage-badge]: https://coveralls.io/github/yazheirx/Go3D?branch=master
-[coverage]: https://coveralls.io/repos/github/yazheirx/Go3D/badge.svg?branch=master
+[coverage-badge]: https://coveralls.io/github/yazheirx/Go3D
+[coverage]: https://coveralls.io/repos/github/yazheirx/Go3D/badge.svg
 [travis-badge]: https://travis-ci.com/yazheirx/Go3D.svg?branch=master
 [travis]: https://travis-ci.com/yazheirx/Go3D.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
