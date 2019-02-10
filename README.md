@@ -12,7 +12,19 @@ A running version is up on Heroku at: https://young-springs-11861.herokuapp.com/
 
 ## Installation
 
-As a NodeJS application cloning this library and running 'node index.js' should be enough to get started.
+After brining the code down run:
+
+```bash
+npm update
+```
+
+After npm update completes the following will start your node server running on port 3000, unless you have an ENV "port" setting of another number:
+
+```bash
+node server.js
+```
+## Babylon Express Server
+This project uses the [Babylon Express Sever](https://github.com/yazheirx/babylon_express_server) to bootstrap it.
 
 ## License
 
@@ -20,7 +32,7 @@ As a NodeJS application cloning this library and running 'node index.js' should 
 
 ## Project Status
 
-As of 2019-01-07 this is an active project which should receive monthly attention
+As of 2019-02-09 this is an active project which should receive monthly attention
 
 [coverage-badge]: https://coveralls.io/github/yazheirx/Go3D
 [coverage]: https://coveralls.io/repos/github/yazheirx/Go3D/badge.svg
