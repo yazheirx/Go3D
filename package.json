@@ -22,7 +22,7 @@
      "dependencies": {
           "babylonjs": "^3.3.0",
           "babylonjs-gui": "^3.3.0",
-          "express": "^4.16.4"
+          "express": "^4.17.3"
      },
      "devDependencies": {
           "coveralls": "^3.0.2",
